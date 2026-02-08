@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playpen Sans", cursive;
+    font-size: 12px;
+}
+.Home{
+    background: linear-gradient(rgba(242, 201, 165, 0.592), rgba(241, 148, 172, 0.433)), url('assets/Images/BG_Img.png');
+    background-size: cover;
+}
+/* Intro Page */
+.Intro_Section{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/Images/A_SBG.png');
+    background-size: cover;
+}
+.Deco_Images{
+    margin-top: 100px;
+    border: 2px solid wheat;
+}
+.Deco_Images img{
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+}
+.Names{
+    padding: 20px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: maroon;
+}
+
+.Details{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid wheat;
+    color: rgb(87, 50, 2);
+}
+.Event_details{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Bride And Groom */
+
+.Bride_Groom{
+    margin-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(242, 201, 165, 0.592), rgba(241, 148, 172, 0.433)), url('assets/Images/BG_Img.png');
+    background-size: cover;
+    padding: 20px;
+    color: rgb(87, 50, 2);
+}
+
+/* Bride */
+.Bride{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Bride img{
+    height: 200px;
+    width: 180px;
+    border-radius: 10px;
+}
+.Bride p{
+    padding: 20px;
+    text-align: center;
+}
+
+/* Video Player */
+.Video-Player{
+    margin-top: 20px;
+    border: 2px solid burlywood;
+}
+.Video-Player video{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+
+/* Photo Gallery */
+.Photo_gallery{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(242, 201, 165, 0.592), rgba(241, 148, 171, 0.156)), url('assets/Images/A_SBG.png');
+    background-size: cover;
+    padding: 20px;
+    color: rgb(87, 50, 2);
+}
+.Gallery{
+    margin-top: 40px;
+}
+.Pics img{
+   height: auto;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 2px;
+   border: 2px solid burlywood;
+   padding: 20px;
+}
+.lg-react-element {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 10px;
+}
+
+/* Best wishes */
+.Best_wishes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.Best_wishes h2{
+    font-size: 20px;
+    background-color: rgba(239, 149, 38, 0.196);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.Greethings{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Location Section */
+.Location_Section{
+    margin-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(rgba(252, 202, 220, 0.314), rgba(241, 148, 171, 0.468)), url('assets/Images/A_SBG.png');
+    background-size: cover;
+    padding: 20px;
+    color: rgb(87, 50, 2);
+}
+.Iframe{
+    margin-top: 20px;
+    border: 2px solid burlywood;
+    padding: 20px;
+}
+
+.btn-location a{
+    padding: 10px 100px;
+    border: 2px solid bisque;
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: rgb(87, 50, 2);
+}
+
+/* Social Sharing */
+.Social_Sharing{
+    height:300px;   
+    color: rgb(87, 50, 2);
+}
+.Social_Media{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.Social_Media h2{
+    padding: 10px;
+    background-color: rgba(239, 171, 82, 0.311);
+    text-decoration: none;
+    color: rgb(87, 50, 2);
+    border-radius: 10px;
+}
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+/* Footer */
+.Footer{
+    height: 150px;
+    padding: 20px;
+    color: rgb(87, 50, 2);
+}
+.Footer h2{
+    font-size: 22px;
+}
+.connect_Links{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+}
+.connect_Links a{
+    padding: 10px 20px;
+    border: 2px solid rgb(87, 50, 2);
+    border-radius: 5px;
+    text-decoration: none;
+    color: maroon;
+}
+
+
