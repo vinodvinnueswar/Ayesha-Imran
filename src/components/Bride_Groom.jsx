@@ -6,24 +6,24 @@ import video from '../assets/video/vinod.mp4'
 const Bride_Groom = () => {
   return (
     <div className="Bride_Groom">
-        <h2>Bride and Groom</h2>
+        <h2 data-aos="fade-up">Bride and Groom</h2>
 
         {/* Bride */}
-        <div className="Bride">
+        <div className="Bride" data-aos="fade-up">
             <img src={Bride_Img} alt="" /><br />
             <h3>Ayesha</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum cumque delectus neque expedita facere aliquid animi, voluptatibus voluptatem placeat reprehenderit tempore, doloribus dolorum quaerat, dignissimos vel pariatur officiis in assumenda.</p>
         </div>
 
         {/* Groom */}
-        <div className="Bride">
+        <div className="Bride" data-aos="fade-up">
             <img src={Bride_Img} alt="" /><br />
             <h3>Imran</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum cumque delectus neque expedita facere aliquid animi, voluptatibus voluptatem placeat reprehenderit tempore, doloribus dolorum quaerat, dignissimos vel pariatur officiis in assumenda.</p>
         </div>
 
         {/* Video */}
-        <div className="Video-Player">
+        <div className="Video-Player" data-aos="fade-up">
              <video controls autoPlay muted loop>
                 <source src={video} type="video/mp4" />
                 Your browser does not support video.
@@ -34,7 +34,7 @@ const Bride_Groom = () => {
        <Photo_gallery/>
 
        {/* Best Wishes */}
-       <div className="Best_wishes">
+       <div className="Best_wishes" data-aos="fade-up">
         <h2>Best Wishes</h2>
         <div className="Greethings">
             <p>Dr.Shyam Sundher</p>

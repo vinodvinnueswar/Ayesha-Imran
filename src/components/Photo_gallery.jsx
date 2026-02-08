@@ -37,8 +37,8 @@ const data = [
 const Photo_gallery = () => {
   return (
     <div className="Photo_gallery">
-        <h2>Photo Gallery</h2>
-        <div className="Gallery">
+        <h2 data-aos="fade-up">Photo Gallery</h2>
+        <div className="Gallery" data-aos="fade-up">
              <LightGallery
                 speed={500}
                 plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
