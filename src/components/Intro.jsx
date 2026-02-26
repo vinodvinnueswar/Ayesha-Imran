@@ -1,15 +1,12 @@
 import React from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { useEffect } from "react";
 import couples from '../assets/Images/couples/couples.png'
 
 
+
 const Intro = () => {
 
-    useEffect(() => {
-    AOS.init({ duration: 1000 });
-    }, []);
 
   return (
     <div className="Intro_Section">
@@ -38,6 +35,8 @@ const Intro = () => {
                 </div>
             </div>
         </div>
+
+     
     </div>
   )
 }
